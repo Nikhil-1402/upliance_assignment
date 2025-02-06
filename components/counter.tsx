@@ -15,9 +15,9 @@ export default function Counter() {
   })
 
   return (
-    <Card className="w-full max-w-sm">
+    <Card className="w-full max-w-xl h-full mx-auto">
       <CardHeader>
-        <CardTitle>Counter</CardTitle>
+        <CardTitle className="text-center">Counter</CardTitle>
       </CardHeader>
       <CardContent className="flex flex-col items-center gap-4">
         <animated.div className="text-4xl font-bold">{props.number.to((n) => n.toFixed(0))}</animated.div>
